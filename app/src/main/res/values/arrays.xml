@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="idiomas_array" >
+        <item>Ingles(US)</item>
+        <item>Ingles(UK)</item>
+        <item>Portugues(BR)</item>
+        <item>Portugues(PT)</item>
+        <item>Alemao</item>
+        <item>Coreano</item>
+        <item>Japones</item>
+        <item>Italiano</item>
+        <item>Frances(FR)</item>
+        <item>Frances(CA)</item>
+        <item>Espanhol</item>
+        <item>Chines</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/blue"
+    tools:context=".MainActivityFragment">
+
+    <Spinner
+        android:id="@+id/sp_idioma"
+        android:layout_width="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_height="30dp"
+        android:background="@color/gray"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/et_texto"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:hint="@string/digite"
+        android:singleLine="false"
+        android:textSize="18sp"
+        android:layout_below="@+id/sp_idioma"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_ler"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:textSize="20sp"
+        android:text="@string/ler"
+        android:textColor="@color/white"
+        android:background="@color/dark_blue"
+        android:layout_below="@+id/et_texto"/>
+</RelativeLayout>

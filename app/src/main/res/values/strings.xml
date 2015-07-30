@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pronounce Learner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="digite">Digite aqui o texto</string>
+    <string name="ler">Ler o texto!</string>
+</resources>
